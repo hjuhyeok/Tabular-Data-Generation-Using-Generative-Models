@@ -29,6 +29,8 @@
 이 모델은 **InfoGAN의 잠재 변수 학습 기능**과 **CTGAN의 조건부 샘플링 기능**을 결합하여 **더 나은 데이터 생성을 목표**로 합니다.
 
 ### **구조 (Architecture)**
+![모델 아키텍처](https://github.com/hjuhyeok/Tabular-Data-Generation-Using-Generative-Models/blob/main/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png)
+
 - **Generator \( G(z, c) \)**:
   - **잠재 변수 \( c \)**를 활용하여 데이터 생성
   - **CTGAN의 Mode-specific Normalization 기법**을 적용하여 데이터 분포 유지
