@@ -13,12 +13,12 @@
 
 ## **2. 배경 지식**
 
-### **InfoGAN (Information Maximizing GAN)**
+### **InfoGAN**
 - 기존 GAN에서 **구조적인 잠재 코드 \( c \)를 학습**할 수 있도록 확장된 모델
 - **데이터의 주요 특징(feature)을 학습**하여 **더 의미 있는 샘플 생성**이 가능함
 - 특정 속성을 조절하여 **조건부 데이터 생성**이 가능
 
-### **CTGAN (Conditional Tabular GAN)**
+### **CTGAN**
 - **테이블 데이터 전용 생성 모델**
 - **핵심 기술**:
   1. **Mode-specific Normalization** → 연속형 데이터의 정규화 개선
