@@ -1,7 +1,7 @@
 # **📌 InfoGAN + CTGAN: Tabular Data 생성 모델**
 
 ## **1. 소개**
-이 프로젝트는 **InfoGAN과 CTGAN을 결합**하여 **테이블 데이터(Tabular Data)**를 효과적으로 생성하는 모델입니다.  
+이 프로젝트는 **InfoGAN과 CTGAN을 결합**하여 테이블 데이터(Tabular Data)를 효과적으로 생성하는 모델입니다.  
 범주형(Categorical) 데이터와 연속형(Continuous) 데이터를 모두 고려하여 **구조화된 데이터 생성**을 가능하게 합니다.
 
 ### **주요 문제점**
