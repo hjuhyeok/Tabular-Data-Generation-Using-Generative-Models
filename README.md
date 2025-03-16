@@ -33,7 +33,7 @@
 ![모델 아키텍처](https://github.com/hjuhyeok/Tabular-Data-Generation-Using-Generative-Models/blob/main/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png)
 
 - **Generator \( G(z, c) \)**:
-  - **노이즈 \( z \)**와 **잠재 코드 \( c \)**를 활용하여 데이터를 생성
+  - 노이즈 \( z \)와 잠재 코드 \( c \)를 활용하여 데이터를 생성
   - **CTGAN의 Mode-specific Normalization 기법**을 적용해 데이터 분포를 유지
 
 - **Discriminator \( D(x) \)**:
